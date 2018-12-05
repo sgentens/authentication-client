@@ -1,0 +1,27 @@
+acrossHibernate:
+  create-unit-of-work-factory: true
+
+adminWebModule:
+  login:
+    rememberMe:
+      key: client-changeme
+  root-path: /admin
+
+applicationInfo:
+  applicationId: client
+  applicationName: Client
+
+debugWebModule:
+  root-path: /debug
+  security:
+    password: client-changeme
+
+logging:
+  request-response:
+    enabled: true
+
+userModule:
+  require-email-unique: true
+
+security:
+  ignored: /across/resources/**

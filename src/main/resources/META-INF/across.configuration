@@ -1,0 +1,2 @@
+com.foreach.across.AutoConfigurationDisabled=\
+  org.springframework.boot.autoconfigure.security.oauth2.OAuth2AutoConfiguration
